@@ -1,92 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Projetos Sociais | ONG Felicidades</title>
-  <meta name="description" content="Conheça os projetos sociais da ONG Felicidades e saiba como ser voluntário ou doar.">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <a href="#main" class="skip-link">Ir para o conteúdo</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projetos Sociais | ONG Felicidades</title>
+    <meta
+      name="description"
+      content="Conheça os projetos sociais da ONG Felicidades e saiba como ser voluntário ou doar."
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Ir para o conteúdo</a>
 
-  <header role="banner">
-    <div class="container header-top">
-      <div class="site-title">ONG Felicidades</div>
-      <nav aria-label="Menu principal">
-        <a href="index.html">Início</a>
-        <a href="projetos.html" aria-current="page">Projetos</a>
-        <a href="cadastro.html">Cadastro</a>
-      </nav>
-    </div>
-  </header>
+    <header role="banner">
+      <div class="container header-top">
+        <div class="site-title">ONG Felicidades</div>
+        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+        <nav aria-label="Menu principal">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li>
+              <a href="projetos.html">Projetos</a>
+              <ul class="submenu">
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#saude">Saúde</a></li>
+                <li><a href="#meio-ambiente">Meio Ambiente</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <main id="main" class="container">
-    <h1>Projetos Sociais</h1>
-    <p>Conheça nossos principais projetos e descubra como participar como voluntário ou apoiador.</p>
+    <main id="main" class="container">
+      <h1>Projetos Sociais</h1>
+      <p>
+        Conheça nossos principais projetos e descubra como participar como
+        voluntário ou apoiador.
+      </p>
 
-    <!-- Projeto Educação -->
-    <section class="project project-educacao" aria-labelledby="educacao">
-      <div class="project-content">
-        <h2 id="educacao">Educação para Todos</h2>
+      <!-- Projeto Educação -->
+      <section class="project project-educacao" aria-labelledby="educacao">
+        <div class="project-content">
+          <h2 id="educacao">Educação para Todos</h2>
+          <p>
+            O projeto <strong>Educação para Todos</strong> oferece reforço
+            escolar gratuito e oficinas de leitura para crianças e adolescentes
+            em situação de vulnerabilidade em Breves, Pará.
+          </p>
+          <ul>
+            <li><strong>Meta:</strong> atender 200 alunos até o fim do ano</li>
+            <li>
+              <strong>Local:</strong> Escola Comunitária Bairro Novo, Breves-PA
+            </li>
+            <li>
+              <strong>Voluntários necessários:</strong> 10 professores e 5
+              monitores
+            </li>
+          </ul>
+          <p>
+            <a href="cadastro.html" class="btn">Seja voluntário</a> ou
+            <a href="#" class="btn">Doe agora</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Projeto Meio Ambiente -->
+      <section
+        class="project project-meio-ambiente"
+        aria-labelledby="meio-ambiente"
+      >
+        <div class="project-content">
+          <h2 id="meio-ambiente">Ação Verde</h2>
+          <p>
+            O <strong>Ação Verde</strong> promove mutirões de reflorestamento e
+            educação ambiental em escolas públicas de Breves-PA, buscando
+            sensibilizar jovens e comunidades.
+          </p>
+          <ul>
+            <li>
+              <strong>Meta:</strong> plantar 5.000 mudas até o próximo semestre
+            </li>
+            <li>
+              <strong>Local:</strong> Parques urbanos e áreas ribeirinhas,
+              Breves-PA
+            </li>
+            <li><strong>Voluntários necessários:</strong> 30 pessoas</li>
+          </ul>
+          <p>
+            <a href="cadastro.html" class="btn">Participar como voluntário</a>
+            ou
+            <a href="#" class="btn">Contribuir com doação</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Projeto Saúde -->
+      <section class="project project-saude" aria-labelledby="saude">
+        <div class="project-content">
+          <h2 id="saude">Saúde em Movimento</h2>
+          <p>
+            O projeto <strong>Saúde em Movimento</strong> leva atendimento
+            médico e odontológico básico a comunidades isoladas de Breves-PA,
+            com apoio de voluntários da área da saúde.
+          </p>
+          <ul>
+            <li><strong>Meta:</strong> atender 1.000 pessoas por mês</li>
+            <li>
+              <strong>Local:</strong> Comunidades rurais e ribeirinhas,
+              Breves-PA
+            </li>
+            <li>
+              <strong>Voluntários necessários:</strong> 20 profissionais de
+              saúde
+            </li>
+          </ul>
+          <p>
+            <a href="cadastro.html" class="btn">Candidatar-se</a> ou
+            <a href="#" class="btn">Fazer doação</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <div class="container">
         <p>
-          O projeto <strong>Educação para Todos</strong> oferece reforço escolar gratuito e oficinas de leitura para crianças e adolescentes em situação de vulnerabilidade em Breves, Pará.
-        </p>
-        <ul>
-          <li><strong>Meta:</strong> atender 200 alunos até o fim do ano</li>
-          <li><strong>Local:</strong> Escola Comunitária Bairro Novo, Breves-PA</li>
-          <li><strong>Voluntários necessários:</strong> 10 professores e 5 monitores</li>
-        </ul>
-        <p>
-          <a href="cadastro.html" class="btn">Seja voluntário</a> ou
-          <a href="#" class="btn">Doe agora</a>
+          &copy; 2025 ONG Felicidades — Rua das Flores, 456, Breves-PA — Juntos
+          fazemos a diferença.
         </p>
       </div>
-    </section>
+    </footer>
 
-    <!-- Projeto Meio Ambiente -->
-    <section class="project project-meio-ambiente" aria-labelledby="meio-ambiente">
-      <div class="project-content">
-        <h2 id="meio-ambiente">Ação Verde</h2>
-        <p>
-          O <strong>Ação Verde</strong> promove mutirões de reflorestamento e educação ambiental em escolas públicas de Breves-PA, buscando sensibilizar jovens e comunidades.
-        </p>
-        <ul>
-          <li><strong>Meta:</strong> plantar 5.000 mudas até o próximo semestre</li>
-          <li><strong>Local:</strong> Parques urbanos e áreas ribeirinhas, Breves-PA</li>
-          <li><strong>Voluntários necessários:</strong> 30 pessoas</li>
-        </ul>
-        <p>
-          <a href="cadastro.html" class="btn">Participar como voluntário</a> ou
-          <a href="#" class="btn">Contribuir com doação</a>
-        </p>
-      </div>
-    </section>
-
-    <!-- Projeto Saúde -->
-    <section class="project project-saude" aria-labelledby="saude">
-      <div class="project-content">
-        <h2 id="saude">Saúde em Movimento</h2>
-        <p>
-          O projeto <strong>Saúde em Movimento</strong> leva atendimento médico e odontológico básico a comunidades isoladas de Breves-PA, com apoio de voluntários da área da saúde.
-        </p>
-        <ul>
-          <li><strong>Meta:</strong> atender 1.000 pessoas por mês</li>
-          <li><strong>Local:</strong> Comunidades rurais e ribeirinhas, Breves-PA</li>
-          <li><strong>Voluntários necessários:</strong> 20 profissionais de saúde</li>
-        </ul>
-        <p>
-          <a href="cadastro.html" class="btn">Candidatar-se</a> ou
-          <a href="#" class="btn">Fazer doação</a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <footer role="contentinfo">
-    <div class="container">
-      <p>&copy; 2025 ONG Felicidades — Rua das Flores, 456, Breves-PA — Juntos fazemos a diferença.</p>
-    </div>
-  </footer>
-</body>
+    <script src="js/menu.js"></script>
+  </body>
 </html>
