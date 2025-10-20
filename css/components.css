@@ -1,0 +1,10 @@
+.btn {
+    background: var(--color-primary);
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: backgroud 0.2 ease;
+}
+
