@@ -8,3 +8,6 @@
     transition: backgroud 0.2 ease;
 }
 
+.btn:hover {
+    background: var(--color-primary-dark);
+}
