@@ -21,3 +21,13 @@
     padding: 0.25rem 0.5rem;
     margin-left: 0.5rem;
 }
+
+.alert {
+  padding: 1rem;
+  border-radius: 8px;
+  margin: var(--space-2) 0;
+}
+
+.alert-success { background: var(--color-success); color: #fff; }
+.alert-danger { background: var(--color-danger); color: #fff; }
+.alert-warning { background: var(--color-warning); color: #111; }
