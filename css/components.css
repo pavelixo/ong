@@ -48,3 +48,24 @@
   padding: var(--space-3);
   max-width: 500px;
 }
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: static;
+  left: auto;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  background: #111;
+  color: #fff;
+  z-index: 9999;
+  border-radius: 4px;
+}

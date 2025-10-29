@@ -17,7 +17,7 @@
       <div class="container header-top">
         <div class="site-title">ONG Felicidades</div>
         <button class="menu-toggle" aria-label="Abrir menu">☰</button>
-        <nav aria-label="Menu principal">
+        <nav id="primary-nav" aria-label="Menu principal">
           <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="cadastro.html">Cadastro</a></li>
@@ -35,6 +35,8 @@
     </header>
 
     <main id="main" class="container">
+      <button id="a11y-contrast" aria-pressed="false" title="Ativar alto contraste">Alto Contraste</button>
+
       <h1>Cadastro de Voluntário</h1>
       <p>Preencha seus dados. Campos marcados com * são obrigatórios.</p>
 
@@ -44,6 +46,7 @@
         novalidate
         aria-label="Formulário de cadastro"
       >
+        <div id="form-errors" role="alert" aria-live="assertive" style="display:none;" class="alert alert-danger"></div>
         <fieldset>
           <legend>Dados pessoais</legend>
 
@@ -227,6 +230,7 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/a11y.js"></script>
     <script src="js/mask.js"></script>
     <script src="js/app.js"></script>
     <script src="js/validation.js"></script>
